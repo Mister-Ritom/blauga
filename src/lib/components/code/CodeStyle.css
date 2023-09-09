@@ -1,0 +1,35 @@
+/* Customize the background color of code blocks */
+.hljs {
+    background: rgba(79, 10, 164, 0.22);
+    color: var(--text);
+    padding: 8px;
+
+}
+.hljs-function{
+    color: #898def;
+}
+.hljs-title{
+    color: #885be0;
+}
+.hljs-comment {
+    color: #666666;
+}
+.hljs-keyword {
+    color: #007acc;
+}
+
+.hljs-string {
+    color: #c8b3ff;
+}
+.hljs-number {
+    color: #ff8b50;
+}
+
+@media (prefers-color-scheme: light) {
+    .hljs {
+        background: rgba(228, 212, 246, 0.5);
+    }
+    .hljs-string {
+        color: #a2466c;
+    }
+}
